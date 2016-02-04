@@ -3,6 +3,8 @@
 .txt {color:black; letter-spacing: 0.1em; width:200px}
 .box_txt {color:#2C3D82; height:200px; width:200px}
 .picture {border-style: double; border-width: 4px; border-color:#2C3D82}
+.border {border-style: double; border-width: 4px; border-color:#5FC0CE}
+.some_txt {color:#29477F; font-family:Tahoma}
 
 
 
