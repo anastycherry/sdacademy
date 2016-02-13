@@ -24,7 +24,6 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../static/js/bootstrap.min.js"></script>
       <div>
       <ul class="nav nav-tabs" role="tablist">
             <li class="active"><a style="background-color:lightgrey" href="{% url 'index' %}">Main</a></li>
@@ -34,7 +33,7 @@
       </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <h1 class="page-header"><strong>Yurii Reshetylo:</strong></h1>
-           <img src="../static/images/1_A.png" width="400" align="left" height="250">
+           <img src="{% static 'images/1_A.png' %}" width="400" align="left" height="250">
 
          <div class="row">
           <div class="col-md-4">

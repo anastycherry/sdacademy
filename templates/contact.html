@@ -19,12 +19,11 @@
     <![endif]-->
   </head>
    <body style="background-color:lightgrey">
-     <img class="picture" src="../static/images/Py.jpg"width="400" height="200">
+     <img class="picture" src="{% static 'images/Py.jpg' %} "width="400" height="200">
 <br>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
       </div>
       <ul class="nav nav-tabs" role="tablist">
             <li><a style="background-color:lightgrey" href="{% url 'index' %}">Main</a></li>
@@ -42,7 +41,7 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="../static/images/vano.jpg" alt="Generic placeholder image" border=lightgrey width="250" height="250">
+          <img class="img-circle" src="{% static 'images/vano.jpg' %}" alt="Generic placeholder image" border=lightgrey width="250" height="250">
           <h2 class="txt">Director</h2>
            <ul class="list-group">
             <li class="list-group-item"><b class="box_txt">Name:</b> Ivan Tarasenko</li>
@@ -52,7 +51,7 @@
           </ul>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="../static/images/andrey.jpg" alt="Generic placeholder image" width="250" height="250">
+          <img class="img-circle" src="{% static 'images/andrey.jpg' %}" alt="Generic placeholder image" width="250" height="250">
           <h2 class="txt"> Founder </h2>
            <ul class="list-group">
             <li class="list-group-item"><b class="box_txt">Name:</b> Andrii Bondarenko </li>
@@ -62,7 +61,7 @@
           </ul>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="../static/images/sergey.jpg" alt="Generic placeholder image" width="250" height="250">
+          <img class="img-circle" src="{% static 'images/sergey.jpg' %}" alt="Generic placeholder image" width="250" height="250">
           <h2 class="txt">Manager</h2>
            <ul class="list-group">
             <li class="list-group-item"><b class="box_txt">Name:</b> Sergey Podlipenskiy </li>
